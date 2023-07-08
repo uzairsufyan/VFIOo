@@ -1,0 +1,72 @@
+.login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  background: #ffffff88;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.login-page{
+}
+.login-form {
+  /* background: #fff; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 80px);
+}
+.login h1 {
+  margin: 20px;
+  color: #0066cc;
+}
+
+.login .button {
+  background: #0066cc;
+  color: white;
+  font-size: 20px;
+  padding: 10px 0px;
+  margin: 10px;
+  border-radius: 3px;
+  width: 415px;
+  cursor: pointer;
+  transition: background 0.3s;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -ms-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  z-index: 0;
+}
+.login > .button:hover {
+  background-color: #006699;
+}
+._button {
+  color: #0066cc;
+  cursor: pointer;
+}
+.toRegister a {
+  color: #0066cc;
+}
+.toRegister button {
+  background: transparent;
+  color: #0066cc;
+  cursor: pointer;
+}
+.toRegister button:disabled {
+  background: transparent;
+  color: #ffbbc5;
+  cursor: no-drop;
+}

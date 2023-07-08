@@ -1,0 +1,107 @@
+.nav-bar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a; */
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    z-index: 999;
+  }
+  .brand-img{
+    width: 60px;
+  }
+  .brand-logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    align-items: center;justify-content: center;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 23px 20px;
+  }
+  .nav-bar-container {
+    display: flex;
+    height: 100%;
+    width: 1100px;
+    max-width: 1100px;
+    align-items: center;
+    overflow: hidden;
+    list-style: none;
+  }
+  .nav-item a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 29px 20px;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+  }
+  .nav-item a:hover {
+    background-color: #f0f0f0;
+  }
+  .button {
+    cursor: pointer;
+  }
+  .user {
+    height: 30px;
+    width: 30px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+  }
+  .login-btn {
+    background-color: #209420;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  .reg {
+    display: none;
+  }
+  .is-active{
+    background: #f0f0f0;
+  }
+  .user-name{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .user-name > .img{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+  }
+  .img > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+  }
+  .button > i{
+    color: #d90000;
+  }

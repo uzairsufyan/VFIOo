@@ -1,0 +1,26 @@
+.App-Screen {
+  width: 100%;
+  position: absolute;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.none {
+  display: none;
+}
+.top-bar {
+  position: fixed;
+  width: 100%;
+  z-index: 9000;
+}
+
+.active {
+  color: #0066cc !important;
+}
+
+.login-bg{
+  width:100vw;
+  position: fixed;z-index: -3
+  ;
+}
